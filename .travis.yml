@@ -30,7 +30,6 @@ install:
     if [ "$lower_bound_dependencies" = "1" ];
     then
       constraint_options=(
-        "--constraint=text==1.0.0.0"
       );
     fi;
   # Install the "haskell-src-exts" implicit dependency
